@@ -1,0 +1,47 @@
+.about__img {
+    margin-top: 145px;
+}
+
+.about__content {
+    background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), linear-gradient(0deg, #212121, #212121);
+    padding: 70px 81px;
+    margin-top: 0px;
+    width: 785px;
+    height: 455px;
+    margin-left: 352px;
+    top: 2275px;
+    position: absolute;
+}
+
+.about__text {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 39px;
+    padding-right: 100px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: -2px;
+}
+
+.about__button {
+    position: absolute;
+    background-color: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 168px;
+    height: 55px;
+    padding: 19px 40px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+.about__button:hover {
+    background-color: #8F00FF;
+    transition: 0.3s;
+}

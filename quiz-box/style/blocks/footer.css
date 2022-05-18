@@ -1,0 +1,117 @@
+.container.footer__container {
+    width: 100%;
+	height: 100%;
+	max-width: 1142px;
+    border-top: 1px solid #2e3033;
+    padding-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--align--right {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.footer__menu, .footer__menu-item, .footer__contacts, .socials__list .socials__item, .socials__link {
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    }
+
+.footer {
+    margin-top: 103px;
+    height: 146px;
+}
+
+.footer__menu {
+    margin-left: 128px;
+    font-size: 15px;
+    line-height: 16px;
+	letter-spacing: 0.5px;
+    margin-top: -14px;
+}
+
+.footer__menu-list {
+    display: flex;
+}
+
+.footer__menu-item {
+    margin-left: 3px;
+    margin-right: 65px;
+    margin-top: -8px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid transparent;
+}
+
+
+.footer__menu-item:last-child {
+	margin-right: 0px;
+}
+
+.footer__menu-item:hover {
+	border-bottom: 1px solid white;
+    transition: 0.3s;
+}
+
+.logo__link--text {
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 700;
+    color: #000;
+    background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-osx-background-clip: text;
+    -moz-osx-text-fill-color: transparent;
+    margin-top: -21px;
+}
+
+.socials__list {
+    margin-right: 75px;
+    margin-top: -10px;
+    display: flex;
+}
+
+.socials__item {
+    margin-right: 10px;    
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    background-image: url("../../img/socials1.png");
+    background-size: 36px;
+    
+}
+
+.socials__link:hover {
+    background-image: url("../../img/socials.png");
+    background-size: 36px;
+    transition: 0.3s;
+}
+
+.footer__contacts-phone {
+	font-size: 26px;
+	line-height: 40px;
+}
+
+.footer__contacts-desc {
+	color: #9A9A9A;
+    font-size: 11px;
+	line-height: 12px;
+	text-align: end;
+}
+

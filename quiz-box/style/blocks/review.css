@@ -1,0 +1,263 @@
+.page-title--reviews {
+    margin-top: -30px;
+    margin-left: 5px;
+}
+
+.reviews {
+    column-count: 2;
+    column-gap: 27px;
+}
+
+.reviews__item {
+    margin-bottom: 17px;
+}
+
+.reviews__item:last-child {
+    margin-bottom: 78px;
+}
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 28px;
+    padding-bottom: 32px;
+    background: #F4F5F5;
+
+}
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 700;
+    color:#1A1B1E;
+    margin-bottom: 3px;
+    text-decoration: underline #F4F5F5;
+}
+
+.review__user:hover {
+    color: #2E77A4;
+    text-decoration: underline #2E77A4;
+    transition: 0.3s;
+}
+
+.review__user:after {
+    content: url("../../img/vk-blue.png");
+    height: 30px;
+    margin-left: 7px;
+    margin-top: -5px;
+}
+
+.avatar {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 22px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 13px;
+    line-height: 18px;
+    color:#303030;
+    padding: 10px 21px;
+    border-radius: 50px;
+    background:#E7E7E7;
+}
+
+.tag--bg--green {
+    background:#B9EAE4;
+}
+
+.review__title {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    color:#1A1B1E;
+    margin-bottom: 13px;
+    margin-left: 5px;
+}
+
+.review__content-text {
+    margin-bottom: 48px;
+    font-size: 16px;
+    line-height: 27px;
+    color:#818181;
+}
+
+.review__date {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 600;
+    color:#1A1B1E;
+}
+
+.paginator--reviews {
+    margin-left: 0px;
+    margin-bottom: -7px;
+}
+
+.separator {
+    background: #17191C url("../../img/19629.png") right 24% bottom 95% no-repeat;
+    min-height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.separator__content {
+    max-width: 50%;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 65px;
+    width: 390px;
+    margin-top: -16px;
+}
+
+.inner-section--bg--white {
+    height: 799px;
+    background:#F4F5F5;
+    padding-top: 65px;
+}
+
+.form__row {
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+.form__input {
+    flex: 1;
+    height: 65px;
+    margin-right: 28px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    padding: 19px 30px;
+    font-size: 18px;
+    color:#1A1B1E;
+    outline: none;
+}
+
+.form__input:focus {
+    border: 1px solid #8F00FF;
+}
+
+.form__input::placeholder {
+    background: #fff;
+    color: #666666;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input--textarea {
+    height: 235px;
+    outline: none;
+    background: #fff;
+    padding-top: 30px;
+}
+
+.form__input--textares::placeholder {
+    background: #fff;
+    color:#666666;
+}
+
+.form__controls {
+    display: flex;
+}
+
+.form__controls-title {
+    width: 40%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -15px;
+    margin-left: -20px;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.controls__item:last-child {
+    margin-right: 0px;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background:#B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__button {
+    margin-right: 18px;
+}
+
+.form__button:last-child {
+    margin-right: 0px;
+}
+
+.button--color--grey {
+    background: #2B2B2B;
+    color: #fff;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 787px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.button--color--black {
+    background: #2B2B2B;
+    color: #fff;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 973px;
+}
+
+.logo--review {
+    margin-top: -32px;
+}
+
+.footer__menu--review {
+    margin-top: -10px;
+}
+
+.socials__list--review {
+    margin-top: -23px;
+}
+
+.footer__contacts-desc--review {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+

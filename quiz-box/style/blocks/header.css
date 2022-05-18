@@ -1,0 +1,31 @@
+.container.header__container {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--aligh--right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo__link {
+    margin-right: 260px;
+    margin-top: 5px;
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 700;
+    color: #000;
+    background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-osx-background-clip: text;
+    -moz-osx-text-fill-color: transparent;
+}

@@ -1,0 +1,116 @@
+.games {
+    margin-top: 117px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-games {
+    position: relative;
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+
+.title {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-bottom: 46px;
+}
+
+.games__list {
+    display: flex;
+}
+
+.games__item {
+    margin-right: 2%;
+    flex: 1;
+    height: 392px;
+}
+
+.games__item:last-child {
+    margin-right: 0;
+}
+
+.games__content-img {
+    margin-top: 10px;
+    margin-right: 8px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.games__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    min-height: 140px;
+}
+
+.games__date {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+
+.games__title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.games__lead {
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 75px;
+}
+
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.paginator__display, .paginator__list {
+    vertical-align: middle;
+    margin-top: 52px;
+}
+
+.paginator__display {
+    margin-right: 26px;
+    word-spacing: 5px;
+}
+
+.paginator__list {
+    display: flex;
+    align-items: center;
+}
+
+.paginator__item {
+    font-weight: 700;
+    text-align: center;
+}
+
+.paginator__number {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.paginator__number:hover {
+    background: #8F00FF;
+    transition: 0.3s;
+}
